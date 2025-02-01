@@ -74,12 +74,12 @@ function App() {
                 {/* About Section */}
                 {activeSection === 'about' && (
                   <div className="space-y-8">
-                  <div className="grid md:grid-cols-2 gap-12 items-start">
-                  <img
-                      src={`${import.meta.env.BASE_URL}images/IMG_7128.jpeg`}
-                      alt="Profile"
-                      className="rounded-lg shadow-lg sticky top-24"
-                    />
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <img
+                        src={`${import.meta.env.BASE_URL}images/IMG_7128.jpeg`}
+                        alt="Profile"
+                        className="rounded-lg shadow-lg w-full max-w-[300px] md:max-w-none md:sticky md:top-24"
+                      />
                     <div className="space-y-8">
                       <p className="text-lg text-white/80 leading-relaxed">
                       I'm a passionate Data Engineer with 5.6 years of experience specializing in designing, implementing, and optimizing data solutions using
