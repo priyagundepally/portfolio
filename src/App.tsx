@@ -76,7 +76,7 @@ function App() {
                   <div className="space-y-8">
                   <div className="grid md:grid-cols-2 gap-12 items-start">
                   <img
-                      src="/portfolio/images/IMG_7128.jpeg?auto=format&fit=crop&q=80&w=800"
+                      src={`${import.meta.env.BASE_URL}images/IMG_7128.jpeg`}
                       alt="Profile"
                       className="rounded-lg shadow-lg sticky top-24"
                     />
