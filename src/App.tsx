@@ -74,24 +74,21 @@ function App() {
                 {/* About Section */}
                 {activeSection === 'about' && (
                   <div className="space-y-8">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                  <div className="grid md:grid-cols-2 gap-12 items-start">
+                    {/* Image Section */}
                     <img
-                        src={`${import.meta.env.BASE_URL}images/IMG_7128.jpeg`}
-                        alt="Profile"
-                        className="rounded-lg shadow-lg w-full max-w-[300px] md:max-w-none md:sticky md:top-24"
-                      />
+                      src={`${import.meta.env.BASE_URL}images/IMG_7128.jpeg`}
+                      alt="Profile"
+                      className="rounded-lg shadow-lg md:sticky md:top-24 w-full max-w-sm"
+                    />
+                
+                    {/* Text Section */}
                     <div className="space-y-8">
                       <p className="text-lg text-white/80 leading-relaxed">
-                      I'm a passionate Data Engineer with 5.6 years of experience specializing in designing, implementing, and optimizing data solutions using
-                      tools like Apache NiFi, Databricks, PySpark, and Hive. Proficient in SQL, Python, and Tableau, with expertise in
-                      developing robust ETL workflows, real-time data ingestion, and user-friendly visualizations. Skilled in managing
-                      Databricks clusters, automating workflows, and leveraging statistical techniques for actionable insights, while ensuring
-                      scalable and efficient data processes. 
+                        I'm a passionate Data Engineer with 5.6 years of experience specializing in designing, implementing, and optimizing data solutions using tools like Apache NiFi, Databricks, PySpark, and Hive. Proficient in SQL, Python, and Tableau, with expertise in developing robust ETL workflows, real-time data ingestion, and user-friendly visualizations. Skilled in managing Databricks clusters, automating workflows, and leveraging statistical techniques for actionable insights, while ensuring scalable and efficient data processes.
                       </p>
                       <p className="text-lg text-white/80 leading-relaxed">
-                      Beyond data, I enjoy cooking different cuisines, exploring scenic in-state locations, 
-                      and freestyle dancing. These interests fuel my creativity, problem-solving mindset, 
-                      and adaptability—key skills I bring into my work as a data engineer.
+                        Beyond data, I enjoy cooking different cuisines, exploring scenic in-state locations, and freestyle dancing. These interests fuel my creativity, problem-solving mindset, and adaptability—key skills I bring into my work as a data engineer.
                       </p>
                       <div className="grid grid-cols-2 gap-8">
                         <div>
@@ -104,7 +101,7 @@ function App() {
                             <li>Databricks</li>
                             <li>Azure</li>
                             <li>AWS</li>
-                            <li>Putty(Linux)</li>
+                            <li>Putty (Linux)</li>
                           </ul>
                         </div>
                         <div>
@@ -120,21 +117,6 @@ function App() {
                             <li>ML Techniques</li>
                           </ul>
                         </div>
-                      </div>
-                      {/* Additional content to demonstrate scrolling */}
-                      <div className="space-y-6">
-                        <h3 className="font-normal tracking-[0.1em] uppercase">Additional Skills</h3>
-                        <p className="text-white/80 leading-relaxed">
-                          Beyond core development skills, I bring expertise in:
-                        </p>
-                        <ul className="list-disc list-inside text-white/80 space-y-2">
-                          <li>ETL Process Implementation</li>
-                          <li>Big Data Architecture Design</li>
-                          <li>Workflow Automation</li>
-                          <li>Scalable Data Processing</li>
-                          <li>Stakeholder Collaboration</li>
-                          <li>Agile Methodologies</li>
-                        </ul>
                       </div>
                     </div>
                   </div>
