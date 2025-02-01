@@ -58,7 +58,7 @@ function App() {
 
       {activeSection && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center p-4 z-50">
-          <div className="bg-black/65 backdrop-blur-sm rounded-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto text-white">
+          <div className="bg-black/90 backdrop-blur-sm rounded-lg w-full max-w-4xl max-h-[90vh] overflow-y-auto text-white">
             <div className="p-8">
               <div className="flex justify-between items-center mb-8 sticky top-0 bg-black/65 py-4 z-10">
                 <h2 className="text-2xl font-light tracking-[0.15em] uppercase">{activeSection.replace('-', ' ')}</h2>
@@ -76,7 +76,7 @@ function App() {
                   <div className="space-y-8">
                   <div className="grid md:grid-cols-2 gap-12 items-start">
                   <img
-                      src="/images/IMG_7128.jpeg?auto=format&fit=crop&q=80&w=800"
+                      src="/portfolio/images/IMG_7128.jpeg?auto=format&fit=crop&q=80&w=800"
                       alt="Profile"
                       className="rounded-lg shadow-lg sticky top-24"
                     />
