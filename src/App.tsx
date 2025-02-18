@@ -9,7 +9,7 @@ function App() {
     { title: "SQL-Financial-Transaction-Analysis", link: "https://github.com/priyagundepally/SQL-Financial-Transactions-Analysis" },
     { title: "Tableau-Women-in-Workforce-Analysis-Dashboard", link: "https://github.com/priyagundepally/Tableau-Women-in-Workforce-Analysis-Dashboard" },
     { title: "BI-Olympic-Games-Dashboard", link: "https://github.com/priyagundepally/BI-Olympic-Games-Dashboard" },
-    { title: "CaseStudy-Statistics-Optimization-Simulation", link: "https://github.com/priyagundepally/CaseStudy-Statistics-Optimization-Simulation" },
+    { title: "Case Study: Swirltubs After Market Product Inventory and Service Cost Reduction", link: "https://github.com/priyagundepally/CaseStudy-Statistics-Optimization-Simulation" },
     { title: "Tableau Dashboards", link: "https://github.com/priyagundepally/Tableau-Dashboards" },
     { title: "Capstone-Analysis-Sizing-Scheduling-AnamolyDetection", link: "https://github.com/priyagundepally/Capstone-Analysis-Sizing-Scheduling-AnamolyDetection" }
   ];
