@@ -135,9 +135,13 @@ function App() {
                       <p className="text-white/60">June 2024 - Dec 2024</p>
                     </div>
                     <ul className="list-disc text-white/80">
-                      <li>Ingested and transformed data using Apache NiFi and API calls into Databricks, managing delta  tables and performing data cleaning/manipulation with PySpark across formats like JSON, Parquet, and CSV. </li>
-                      <li>Automated daily data workflows in Databricks with real-time email triggers, optimized clusters,  scheduled jobs, migrated NiFi processes, and integrated with Databricks for historical data ingestion. </li>
-                      <li>Resolved production issues with clients, transformed raw data into actionable insights, managed  Linux-to-S3 workflows for UAT Databricks, and created comprehensive documentation and run books for deployments.</li>
+                      <li>Developed and maintained ETL/ELT data pipelines using Apache NiFi, Python, SQL, and Databricks, transforming structured and unstructured
+                      data (JSON, Parquet, CSV) for analytics. </li>
+                      <li>Automated data workflows by scheduling jobs, optimizing cluster performance, and integrating API-based data ingestion, improving
+                      processing efficiency. </li>
+                      <li>Managed cloud-based data systems using Linux, S3 storage, and query optimization techniques, while troubleshooting production issues
+                      and improving data models
+                      </li>
                     </ul>
                   </div>
                   <div className="bg-white/5 p-8 rounded-lg">
@@ -149,9 +153,12 @@ function App() {
                       <p className="text-white/60">Aug 2019 - July 2022</p>
                     </div>
                     <ul className="list-disc text-white/80">
-                      <li>Designed real-time data pipelines using Databricks and SQL for supply chain optimization, reducing  costs by 15%, and automated ETL workflows with Python for accurate and efficient data preparation. </li>
-                      <li>Conducted predictive modeling with PySpark to improve inventory management by 30%, developed machine learning pipelines for marketing strategies, and visualized insights in Tableau  dashboards. </li>
-                      <li>Migrated data reporting systems to Snowflake, authored Tableau newsletters on supply chain metrics, and delivered training workshops to cross-departmental teams on leveraging advanced data insights. </li>
+                      <li>Built and optimized real-time data pipelines using Databricks, SQL, and Python, automating ETL workflows to improve data accuracy and
+                      reduce supply chain costs by 15%. </li>
+                      <li>Applied predictive modeling with PySpark to enhance inventory management by 30%, developed machine learning pipelines, and created
+                      Tableau dashboards for data visualization.</li>
+                      <li>Migrated reporting systems to Snowflake, improved query performance, and conducted training workshops to help teams use data-driven
+                      insights for decision-making.</li>
                     </ul>
                   </div>
                   <div className="bg-white/5 p-8 rounded-lg">
@@ -163,9 +170,11 @@ function App() {
                       <p className="text-white/60">July 2018 - Aug 2019</p>
                     </div>
                     <ul className="list-disc text-white/80">
-                      <li>Built and deployed ETL workflows using Apache NiFi, automated SQL-driven reporting processes to reduce errors by 30%, and implemented Apache Airflow for workflow management and timely data delivery. </li>
-                      <li>Developed KPI dashboards for marketing and sales, created Python scripts for data preprocessing, and supported real-time reporting needs for client projects. </li>
-                      <li>Optimized large-scale data handling with Hive, enhancing query performance and response times. </li>
+                      <li>Developed and deployed ETL workflows using Apache NiFi, automated SQL-based reporting, and improved data accuracy by 30% through error reduction. </li>
+                      <li>Created KPI dashboards for marketing and sales, developed Python scripts for data preprocessing, and supported real-time reporting for
+                      client projects. </li>
+                      <li>Optimized large-scale data processing using Hive, improving query performance and reducing response times for complex data queries.
+                      </li>
                     </ul>
                   </div>
                   <div className="bg-white/5 p-8 rounded-lg">
@@ -177,9 +186,12 @@ function App() {
                       <p className="text-white/60">July 2017 - June 2018</p>
                     </div>
                     <ul className="list-disc text-white/80">
-                      <li>Developed Python scripts to automate customer data collection and preprocessing, reducing manual efforts by 40%, and migrated data from legacy systems to Hive and NoSQL databases for modern ETL workflows. </li>
-                      <li>Designed SQL-driven models to visualize customer engagement metrics, assisted in implementing data governance frameworks, and provided training to improve analytics tool adoption among nontechnical teams. </li>
-                      <li>Built proof-of-concept ETL workflows for experimental analytics, reducing project turnaround times by 20%. </li>
+                      <li>Automated customer data collection and preprocessing using Python, reducing manual work by 40%, and migrated legacy data to Hive and
+                      NoSQL databases for modern ETL workflows. </li>
+                      <li>• Designed SQL-driven models for customer engagement insights, supported data governance implementation, and trained teams on
+                      analytics tools to improve adoption. </li>
+                      <li>Developed proof-of-concept ETL workflows for experimental analytics, optimizing data processing and cutting project turnaround time by
+                      20%. </li>
                     </ul>
                   </div>
                 </div>
@@ -249,10 +261,13 @@ function App() {
                         <p className="text-white/60">June 2024 - Dec 2024</p>
                       </div>
                       <ul className="list-disc text-white/80">
-                        <li>Migrated legacy Cloudera workflows to Apache NiFi, integrating with Databricks for efficient historical data ingestion, and designed ETL workflows to automate daily data ingestion and transformation. </li>
-                        <li>Optimized Delta Lake tables with Databricks SQL and PySpark, automated real-time ticker updates with NiFi and email triggers, and managed Hive databases for complex data transformations. </li>
-                        <li>Monitored Databricks cluster performance, resolved production issues with cross-functional teams, and documented workflows for seamless UAT deployments. </li>
-                        <li>Technologies used: PySpark, Databricks, SQL, Apache NiFi, Linux (Putty), Hue (Hive). </li>
+                        <li>• Migrated legacy Cloudera workflows to Apache NiFi, integrated with Databricks, and designed ETL workflows for automated data ingestion
+                        and transformation. </li>
+                        <li>Optimized Delta Lake tables using Databricks SQL and PySpark, automated real-time ticker updates, and managed Hive databases for
+                        complex data processing. </li>
+                        <li>Monitored Databricks cluster performance, troubleshot production issues, and documented workflows for seamless UAT deployments. </li>
+                        <li>Technologies: PySpark, Databricks, SQL, Apache NiFi, Hive, Linux
+                        </li>
                       </ul>
                     </div>
                     <div className="bg-white/5 p-8 rounded-lg">
@@ -264,10 +279,12 @@ function App() {
                         <p className="text-white/60">Aug 2019 - July 2022</p>
                       </div>
                       <ul className="list-disc text-white/80">
-                        <li>Designed real-time data pipelines with Databricks and SQL, achieving a 15% reduction in supply chain costs, and automated ETL workflows with Python to improve data accuracy and operational efficiency. </li>
-                        <li>Conducted predictive modeling using PySpark to enhance inventory management by 30%, developed machine learning pipelines for marketing optimization, and visualized insights in Tableau dashboards. </li>
-                        <li>Migrated legacy reporting systems to Snowflake, authored Tableau newsletters on supply chain metrics, and delivered training workshops to empower teams with advanced data insights. </li>
-                        <li>Technologies used: Python, SQL, Databricks, Apache NiFi, Snowflake, Linux (Putty). </li>
+                        <li>Built real-time data pipelines using Databricks and SQL, reducing supply chain costs by 15%, and automated ETL workflows with Python to
+                        improve data accuracy. </li>
+                        <li>Applied predictive modeling with PySpark to enhance inventory management by 30%, developed machine learning pipelines, and created
+                        Tableau dashboards for insights. </li>
+                        <li>Migrated legacy reporting systems to Snowflake, improved query performance, and conducted training workshops to enhance data-driven decision-making. </li>
+                        <li>Technologies: Python, SQL, Databricks, Apache NiFi, Snowflake, Tableau, Linux </li>
                       </ul>
                     </div>
                     <div className="bg-white/5 p-8 rounded-lg">
@@ -279,25 +296,30 @@ function App() {
                         <p className="text-white/60">Aug 2018 - Aug 2019</p>
                       </div>
                       <ul className="list-disc text-white/80">
-                        <li>Analyzed supply chain processes using Python for automation of data extraction and transformation, identifying inefficiencies and uncovering cost-saving opportunities. </li>
-                        <li>Designed Tableau dashboards to visualize supply chain metrics, implemented Databricks for advanced analytics, and developed ETL pipelines to integrate data sources, reducing supply chain expenses by 20%. </li>
-                        <li>Utilized Apache Airflow to coordinate data workflows, leveraged Snowflake for managing large-scale datasets, and enhanced decision-making with real-time analytics and Tableau visualizations. </li>
-                        <li>Technologies used: Tableau, Python, Databricks, Apache Airflow, Supply Chain Analysis, Cost Optimization. </li>
+                        <li>Automated data extraction and transformation using Python, identifying inefficiencies and uncovering cost-saving opportunities in supply
+                        chain processes. </li>
+                        <li>Designed Tableau dashboards for supply chain metrics, implemented Databricks for analytics, and built ETL pipelines, reducing supply chain
+                        expenses by 20%. </li>
+                        <li>Managed large-scale datasets using Snowflake, automated data workflows with Apache Airflow, and enabled real-time analytics for better
+                        decision-making. </li>
+                        <li>Technologies: Python, Databricks, Apache Airflow, Snowflake, Tableau </li>
                       </ul>
                     </div>
                     <div className="bg-white/5 p-8 rounded-lg">
                       <div className="flex justify-between items-start mb-4">
                         <div>
-                          <h3 className="text-xl font-normal tracking-wide mb-2">Women in the Workforce Analysis</h3>
+                          <h3 className="text-xl font-normal tracking-wide mb-2">Swirltubs After-Market Product Inventory & Service Cost Reduction</h3>
                           <p className="text-white/60">University of Dayton</p>
                         </div>
-                        <p className="text-white/60">March 2023 - May 2023</p>
+                        <p className="text-white/60">April 2023 - June 2023</p>
                       </div>
                       <ul className="list-disc text-white/80">
-                        <li>Designed Tableau dashboards to analyze workforce participation trends of women across five countries, visualizing employment structures and disparities using time-series data (2002–2011). </li>
-                        <li>Automated data extraction and transformation workflows with Python, integrated datasets with SQL, and developed interactive Tableau dashboards to compare Women Business and Law Index scores and gender equality policies. </li>
-                        <li>Conducted an in-depth analysis of economic opportunities for women, presenting insights into employment categories and identifying progress and challenges in vulnerable sectors. </li>
-                        <li>Technologies used: Tableau, Python, SQL, Data Visualization, Gender Analytics. </li>
+                        <li>Developed a stocking recommendation model by analyzing parts data and demand patterns, using 50 replications to optimize inventory
+                        based on Net Benefit per Cubic Foot. </li>
+                        <li>Applied predictive analytics, data mining, and statistical modeling to identify high-demand parts, reducing unnecessary inventory and
+                        improving service efficiency. </li>
+                        <li>Automated data analysis and reporting, improving decision-making for aftermarket logistics and enhancing customer service strategies. </li>
+                        <li>Technologies: Machine Learning, Predictive Analytics, Data Mining, Statistics, Data Interpretation, Reporting </li>
                       </ul>
                     </div>
                   </div>
